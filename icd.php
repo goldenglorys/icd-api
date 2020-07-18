@@ -20,7 +20,7 @@
     $response = curl_exec($curl);
 
     curl_close($curl);
-    return $response;
+    echo $response;
     
     // $curl = curl_init();
 
